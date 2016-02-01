@@ -9,3 +9,6 @@ the bug chnages directions to avoid the rock
 	the flowers gets darker the further away the bug gets
 	no the rock does not have any behavior 
 	no only one object in a space but the bug will pass over the flowers
+	it will only move at one space at a time 
+	the set color method
+	the bug is just spinning under the rock
