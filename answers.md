@@ -12,3 +12,17 @@ the bug chnages directions to avoid the rock
 	it will only move at one space at a time 
 	the set color method
 	the bug is just spinning under the rock
+	0    north 
+	45   northeast
+	90   east
+	135  southeast
+	180  south
+	225  southwest
+	270  west
+	315  northwest
+	360  north
+	if you try to move it outside the gird it throws many errors
+	set color changes the color
+	the bug is gone.
+	
+part two
