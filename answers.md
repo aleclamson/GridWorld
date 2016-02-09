@@ -3,8 +3,8 @@ Part one
 	the bug moves clockwise around the square
 	if the bug does not move it would just spin in cirles 
 	the bug leaves flowers behind it 
-the bug chnages directions if it is facing a wall 
-the bug chnages directions to avoid the rock
+	the bug chnages directions if it is facing a wall 
+	the bug chnages directions to avoid the rock
 	the bug has the flowers follow directly behind it
 	the flowers gets darker the further away the bug gets
 	no the rock does not have any behavior 
@@ -26,3 +26,5 @@ the bug chnages directions to avoid the rock
 	the bug is gone.
 	
 part two
+ ----------------
+ 
