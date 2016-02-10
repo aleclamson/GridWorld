@@ -27,4 +27,10 @@ Part one
 	
 part two
  ----------------
- 
+ side length is how long the box that the bug made
+ steps is how many spaces the or steps the bug has gone
+ it has to turn twice to turn the same angle 
+ the box bug is in the bug class and the move method extends 
+ no it can chnage depending on the code
+ it could chnage by chnaging where the class is located 
+ the value of zero steps will be zero if no steps will be moved. 
