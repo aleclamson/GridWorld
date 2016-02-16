@@ -25,7 +25,7 @@ Part one
 	set color changes the color
 	the bug is gone.
 	
-part two
+
  ----------------
  side length is how long the box that the bug made
  steps is how many spaces the or steps the bug has gone
@@ -34,3 +34,13 @@ part two
  no it can chnage depending on the code
  it could chnage by chnaging where the class is located 
  the value of zero steps will be zero if no steps will be moved. 
+ 
+---------------------
+ you would call on location one as a varrible
+ it would be 3, 4
+ dir would equal 6, 5
+ the ajacent location of the last location 
+ you could check each square if the bug is present
+ check the grid boundries 
+ it could be better to return in an array becuase it would store in a beter way
+ three properties of every actor 
