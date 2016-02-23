@@ -44,3 +44,13 @@ Part one
  check the grid boundries 
  it could be better to return in an array becuase it would store in a beter way
  three properties of every actor 
+ -----------------
+ part four .
+ bug move 
+ bug act 
+ and bug color 
+ they all have an act a color a pace and a can move
+ no they should not over ride the get actos 
+ it could read in the actors 
+ can move boolean 
+ it doesnt need one to run `
