@@ -1,5 +1,5 @@
 package part4;
 
-public class ChameleonKid {
+public class ChameleonKid extends ChameleonCritter{
 
 }
