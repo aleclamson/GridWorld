@@ -13,7 +13,7 @@ public class ChameleonKid extends ChameleonCritter{
 		for (Location loc : getLocationInDirections(directions)) {
 		Actor bill = getGrid().get(loc);
 		if (bill != null)
-				actor.add(bill);
+				actors.add(bill);
 		}
 		return actors;
 	}
@@ -26,9 +26,6 @@ public class ChameleonKid extends ChameleonCritter{
 		
 		for (int direction : directions){
 		Location neighborLoc = loc.getAdjacentLocation(getDirection() + direction);
-		if ((grd != null)neighborLoc)
-
 		}
-		return locs;
 	}
 } 

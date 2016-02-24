@@ -1,15 +1,17 @@
 package part2;
+import info.gridworld.actor.Bug;
 
 public class ZBug extends Bug{
 	private int steps;
 	private int sidelength;
 	private boolean Zdone = false;
+	private int side;
 	
-}
+	
 	public ZBug (int length){
 		side = 0;
 		steps = 0;
-		sideLength = length;
+		sidelength = length;
 		turn();
 		turn();
 		
@@ -17,7 +19,7 @@ public class ZBug extends Bug{
 	
 	public void act() {
 		if (canMove()) {
-			if (steps < sideLength) {
+			if (steps < sidelength) {
 				move();
 				steps++;
 			} else if (side == 0) {
