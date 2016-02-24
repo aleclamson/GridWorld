@@ -38,15 +38,15 @@ public class ChameleonCritter extends Critter {
 	 * same as that neighbor's. If there are no neighbors, no action is taken.
 	 
 	 */
-	 private static final double Darkener = 0.5;
+	 private static final double Darkener = 0.05;
 		
 	public void processActors(ArrayList<Actor> actors) {
 		int n = actors.size();
 		if (n == 0) {
-			Color c = getColor();
-			int red = (int) (c.getRed() * 1 - Darkener);
-			int blue = (int) (c.getBlue() * 1 - Darkener);
-			int green = (int) (c.getGreen() * 1 - Darkener);
+			Color col = getColor();
+			int red = (int) (col.getRed() * 1 - Darkener);
+			int blue = (int) (col.getBlue() * 1 - Darkener);
+			int green = (int) (col.getGreen() * 1 - Darkener);
 			setColor(new Color(red, blue, green));
 			return;
 		
@@ -61,8 +61,5 @@ public class ChameleonCritter extends Critter {
 	/**
 	 * Turns towards the new location as it moves.
 	 */
-	public void makeMove(Location loc) {
-		setDirection(getLocation().getDirectionToward(loc));
-		super.makeMove(loc);
-	}
+	
 }
