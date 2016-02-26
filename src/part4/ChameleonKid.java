@@ -10,7 +10,7 @@ public class ChameleonKid extends ChameleonCritter{
 	public void processActors(ArrayList<Actor> actors) {
 		ArrayList<Actor> actors = new ArrayList<Actor>();
 		int[] directions = { Location.AHEAD, Location.HALF_CIRCLE };
-		for (Location loc : getLocationInDirections(directions)) {
+		for (Location loc : getLocationsInDirections(directions)) {
 		Actor bill = getGrid().get(loc);
 		if (bill != null)
 				actors.add(bill);
@@ -20,12 +20,15 @@ public class ChameleonKid extends ChameleonCritter{
 	
 	public ArrayList<Location> getLocationsInDirections(int[] directions){
 		ArrayList<Location> locs = new ArrayList<Location>();
-		Grid grd = getGrid();
+		Grid grds = getGrid();
 		Location loc = getLocation();
 		
 		
 		for (int direction : directions){
 		Location neighborLoc = loc.getAdjacentLocation(getDirection() + direction);
+		if (grds.isValid(neighborLoc))
+			locs.add(neighborLoc);
+		}
+	return locs;
 		}
 	}
-} 
