@@ -40,7 +40,7 @@ public class ChameleonCritter extends Critter {
 	 
 	 */
 	 private static final double Darkener = 0.05;
-	public void processActors(ArrayList<Actor> actors) {
+	public ArrayList<Actor> processActors(ArrayList<Actor> actors) {
 		int n = actors.size();
 		if (n == 0) {
 			Color col = getColor();

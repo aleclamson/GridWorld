@@ -7,7 +7,7 @@ import info.gridworld.grid.Location;
 	
 public class ChameleonKid extends ChameleonCritter{
 	
-	public void processActors(ArrayList<Actor> actors) {
+	public ArrayList<Actor> processActors(ArrayList<Actor> actors) {
 		ArrayList<Actor> actors = new ArrayList<Actor>();
 		int[] directions = { Location.AHEAD, Location.HALF_CIRCLE };
 		for (Location loc : getLocationsInDirections(directions)) {
