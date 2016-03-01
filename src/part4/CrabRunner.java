@@ -45,6 +45,7 @@ public class CrabRunner {
 		world.add(new Location(4, 5), new CrabCritter());
 		world.add(new Location(6, 1), new CrabCritter());
 		world.add(new Location(7, 4), new CrabCritter());
+		world.add(new Location(8, 8), new QuickCrab());
 		world.show();
 	}
 }
